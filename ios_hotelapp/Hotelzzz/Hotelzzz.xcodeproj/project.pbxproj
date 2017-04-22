@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EEEC6211EAAD93500A0432D /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEEC6201EAAD93500A0432D /* Hotel.swift */; };
+		9EEEC6231EAB185100A0432D /* SortPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEEC6221EAB185100A0432D /* SortPickerViewController.swift */; };
 		F222BCD61E81E72500CE0EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222BCD51E81E72500CE0EB2 /* AppDelegate.swift */; };
 		F222BCD81E81E72500CE0EB2 /* SearchFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222BCD71E81E72500CE0EB2 /* SearchFormViewController.swift */; };
 		F222BCDB1E81E72500CE0EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F222BCD91E81E72500CE0EB2 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9EEEC6201EAAD93500A0432D /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		9EEEC6221EAB185100A0432D /* SortPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortPickerViewController.swift; sourceTree = "<group>"; };
 		F222BCD21E81E72500CE0EB2 /* Hotelzzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotelzzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F222BCD51E81E72500CE0EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F222BCD71E81E72500CE0EB2 /* SearchFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFormViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +68,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EEEC61C1EAAD76E00A0432D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F222BCF51E830D4C00CE0EB2 /* DatePickerViewController.swift */,
+				F222BCF91E83235F00CE0EB2 /* HotelViewController.swift */,
+				F222BCD71E81E72500CE0EB2 /* SearchFormViewController.swift */,
+				F222BCF71E83175000CE0EB2 /* SearchViewController.swift */,
+				9EEEC6221EAB185100A0432D /* SortPickerViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9EEEC61D1EAAD79300A0432D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EEEC6201EAAD93500A0432D /* Hotel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9EEEC61E1EAAD7BB00A0432D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F27251341E95A60E00222BC8 /* UIViewController+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		9EEEC61F1EAAD86F00A0432D /* Assets and Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F222BCDC1E81E72500CE0EB2 /* Assets.xcassets */,
+				F222BCDE1E81E72500CE0EB2 /* LaunchScreen.storyboard */,
+				F222BCD91E81E72500CE0EB2 /* Main.storyboard */,
+			);
+			name = "Assets and Storyboards";
+			sourceTree = "<group>";
+		};
 		F222BCC91E81E72400CE0EB2 = {
 			isa = PBXGroup;
 			children = (
@@ -86,15 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				F222BCD51E81E72500CE0EB2 /* AppDelegate.swift */,
-				F222BCD71E81E72500CE0EB2 /* SearchFormViewController.swift */,
-				F222BCF51E830D4C00CE0EB2 /* DatePickerViewController.swift */,
-				F222BCF71E83175000CE0EB2 /* SearchViewController.swift */,
-				F222BCF91E83235F00CE0EB2 /* HotelViewController.swift */,
-				F222BCD91E81E72500CE0EB2 /* Main.storyboard */,
-				F222BCDC1E81E72500CE0EB2 /* Assets.xcassets */,
-				F222BCDE1E81E72500CE0EB2 /* LaunchScreen.storyboard */,
 				F222BCE11E81E72500CE0EB2 /* Info.plist */,
-				F27251341E95A60E00222BC8 /* UIViewController+Extensions.swift */,
+				9EEEC61F1EAAD86F00A0432D /* Assets and Storyboards */,
+				9EEEC61E1EAAD7BB00A0432D /* Extensions */,
+				9EEEC61D1EAAD79300A0432D /* Models */,
+				9EEEC61C1EAAD76E00A0432D /* View Controllers */,
 			);
 			path = Hotelzzz;
 			sourceTree = "<group>";
@@ -219,6 +257,8 @@
 				F222BCF61E830D4C00CE0EB2 /* DatePickerViewController.swift in Sources */,
 				F27251351E95A60E00222BC8 /* UIViewController+Extensions.swift in Sources */,
 				F222BCFA1E83235F00CE0EB2 /* HotelViewController.swift in Sources */,
+				9EEEC6231EAB185100A0432D /* SortPickerViewController.swift in Sources */,
+				9EEEC6211EAAD93500A0432D /* Hotel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
